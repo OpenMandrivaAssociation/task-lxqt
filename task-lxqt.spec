@@ -1,12 +1,13 @@
 Summary:	Metapackage for the LXQt (LXDE-Qt) desktop environment
 Name:		task-lxqt
 Version:	0.8.0
-Release:	1
+Release:	2
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
 Url:		http://www.lxqt.org
 # LXQt itself
 Requires:	lxqt-about
+Requires:	lxqt-admin
 Requires:	lxqt-common
 Requires:	lxqt-config
 Requires:	lxqt-config-randr
