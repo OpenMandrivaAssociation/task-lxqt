@@ -10,7 +10,6 @@ Requires:	lxqt-about
 Requires:	lxqt-admin
 Requires:	lxqt-common
 Requires:	lxqt-config
-Requires:	lxqt-config-randr
 Requires:	lxqt-globalkeys
 Requires:	lxqt-notificationd
 Requires:	lxqt-openssh-askpass
