@@ -1,14 +1,13 @@
 Summary:	Metapackage for the LXQt (LXDE-Qt) desktop environment
 Name:		task-lxqt
-Version:	0.11.0
-Release:	3
+Version:	0.12.0
+Release:	1
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
 Url:		http://www.lxqt.org
 # LXQt itself
 Requires:	lxqt-about
 Requires:	lxqt-admin
-Requires:	lxqt-common >= %{version}
 Requires:	lxqt-config >= %{version}
 Requires:	lxqt-globalkeys
 Requires:	lxqt-l10n
@@ -21,6 +20,7 @@ Requires:	lxqt-qtplugin
 Requires:	lxqt-runner
 Requires:	lxqt-session >= %{version}
 Requires:	lxqt-sudo
+Requires:	lxqt-themes
 Requires:	pcmanfm-qt >= %{version}
 # Other stuff
 Requires:	openbox
