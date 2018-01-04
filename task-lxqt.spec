@@ -1,7 +1,7 @@
 Summary:	Metapackage for the LXQt (LXDE-Qt) desktop environment
 Name:		task-lxqt
 Version:	0.12.0
-Release:	1
+Release:	2
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
 Url:		http://www.lxqt.org
@@ -23,6 +23,13 @@ Requires:	lxqt-sudo
 Requires:	lxqt-themes
 Requires:	pcmanfm-qt >= %{version}
 # Other stuff
+Requires:	xdg-user-dirs
+Requires:	desktop-common-data
+Requires:	distro-theme-OpenMandriva
+Requires:	lxmenu-data
+Requires:	menu-cache
+Requires:	breeze
+Requires:	breeze-icons
 Requires:	openbox
 Requires:	obconf-qt
 Suggests:	notepadqq
@@ -49,4 +56,3 @@ all LXQt applications and libraries.
 %build
 
 %install
-
