@@ -38,6 +38,7 @@ Requires:	qterminal
 Requires:	pavucontrol-qt
 Suggests:	trojita
 Requires:	falkon
+Requires:	qps >= 1.10.18
 Suggests:	calligra
 Suggests:	elisa
 Suggests:	xscreensaver
