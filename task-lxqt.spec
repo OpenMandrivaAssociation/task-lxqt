@@ -1,6 +1,6 @@
 Summary:	Metapackage for the LXQt (LXDE-Qt) desktop environment
 Name:		task-lxqt
-Version:	0.14.1
+Version:	0.15.0
 Release:	1
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
@@ -21,6 +21,7 @@ Requires:	lxqt-runner
 Requires:	lxqt-session >= %{version}
 Requires:	lxqt-sudo
 Requires:	lxqt-themes
+Requires: lxqt-archiver
 Requires:	pcmanfm-qt >= %{version}
 # Other stuff
 Requires:	xdg-user-dirs
