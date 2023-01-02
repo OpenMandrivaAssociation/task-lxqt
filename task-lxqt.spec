@@ -8,7 +8,7 @@ Url:		http://www.lxqt.org
 # LXQt itself
 Requires:	lxqt-about
 Requires:	lxqt-admin
-Requires:	lxqt-config >= %{version}
+Requires:	lxqt-config
 Requires:	lxqt-globalkeys
 Obsoletes:	lxqt-l10n < %{EVRD}
 Requires:	lxqt-notificationd
@@ -18,7 +18,7 @@ Requires:	lxqt-policykit
 Requires:	lxqt-powermanagement
 Requires:	lxqt-qtplugin
 Requires:	lxqt-runner
-Requires:	lxqt-session >= %{version}
+Requires:	lxqt-session
 Requires:	lxqt-sudo
 Requires:	lxqt-themes
 Requires:	lxqt-archiver
