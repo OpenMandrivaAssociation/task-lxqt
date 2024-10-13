@@ -1,7 +1,7 @@
 Summary:	Metapackage for the LXQt (LXDE-Qt) desktop environment
 Name:		task-lxqt
 Version:	2.0.0
-Release:	1
+Release:	2
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
 Url:		http://www.lxqt.org
