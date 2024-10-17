@@ -4,7 +4,7 @@ Version:	2.0.0
 Release:	2
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
-Url:		http://www.lxqt.org
+Url:		https://www.lxqt.org
 # LXQt itself
 Requires:	lxqt-about
 Requires:	lxqt-admin
