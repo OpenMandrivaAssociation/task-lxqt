@@ -1,13 +1,14 @@
 Summary:	Metapackage for the LXQt (LXDE-Qt) desktop environment
 Name:		task-lxqt
-Version:	2.0.0
-Release:	2
+Version:	2.1.0
+Release:	1
 License:	LGPLv2.1+
 Group:		Graphical desktop/Other
 Url:		https://www.lxqt.org
 # LXQt itself
 Requires:	lxqt-about
 Requires:	lxqt-admin
+Requires:	lxqt-archiver
 Requires:	lxqt-config
 Requires:	lxqt-globalkeys
 Obsoletes:	lxqt-l10n < %{EVRD}
@@ -21,9 +22,11 @@ Requires:	lxqt-runner
 Requires:	lxqt-session
 Requires:	lxqt-sudo
 Requires:	lxqt-themes
-Requires:	lxqt-archiver
+Requires: lxqt-wayland-session
 Requires:	xdg-desktop-portal-lxqt
 Requires:	pcmanfm-qt >= %{version}
+Requires: %{_lib}dbusmenu-lxqt
+Requires: qtxdg-tools
 # Other stuff
 Requires:	xdg-user-dirs
 Requires:	distro-release-desktop
@@ -36,7 +39,6 @@ Suggests:	lximage-qt
 Requires:	qterminal
 Requires:	pavucontrol-qt
 Requires:	screengrab
-Suggests:	trojita
 Requires:	falkon
 Requires:	qps >= 1.10.18
 Suggests:	calligra
