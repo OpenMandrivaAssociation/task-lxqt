@@ -22,11 +22,11 @@ Requires:	lxqt-runner
 Requires:	lxqt-session
 Requires:	lxqt-sudo
 Requires:	lxqt-themes
-Requires: lxqt-wayland-session
+Requires:	lxqt-wayland-session
 Requires:	xdg-desktop-portal-lxqt
 Requires:	pcmanfm-qt >= %{version}
-Requires: %{_lib}dbusmenu-lxqt
-Requires: qtxdg-tools
+Requires:	%{_lib}dbusmenu-lxqt
+Requires:	qtxdg-tools
 # Other stuff
 Requires:	xdg-user-dirs
 Requires:	distro-release-desktop
